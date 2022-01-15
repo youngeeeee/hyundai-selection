@@ -1,0 +1,124 @@
+@media all and (min-width: 53.125rem) {
+    html{font-size: 2.2vw;}
+
+    header nav .nav-wrap{
+        height:70%;
+    }
+
+    header nav .nav-wrap .gnb{
+        margin-left:6.25rem;
+        margin-top:30%;
+    }
+
+    header nav.active .bg-layer{
+        height:30%;
+    }
+
+    .main .main_img{
+        top: 2.75rem;
+        opacity: 0.7;
+    }
+    .service{
+        margin:0;
+    }
+
+    .service .service_tit{
+        padding-top:30rem;
+    }
+
+    .service .service_img{
+        display:flex;
+    }
+
+    .service .service_img img{
+        box-shadow: unset;
+    }
+
+    .service .service_img .circle{
+        top:5rem;
+        font-size:0.5rem;
+        line-height: 0.875rem;
+        width:0.875rem;
+        height:0.875rem;
+    }
+
+    .service .service_img .txt{
+        top:7.375rem;
+        padding:0 .9375rem;
+        box-sizing: border-box;
+    }
+
+    .service .service_img .explain{
+        font-size:0.7rem;
+        padding-top:1.5rem;
+    }
+    .service .service_img .txt p:nth-child(1){
+        font-size: 1rem;
+    }
+    .service .service_img span{
+        font-size:0.6rem;
+        padding-top:0;
+        line-height:1.3rem;
+    }
+
+    .recommend .recom_content .ballon_talk > div{
+        max-width: 16.75rem;
+    }
+
+    .recommend .recom_content .ballon_talk img{
+        width:2.125rem;
+        height:auto;
+    }
+
+    .subscript .icon:nth-child(1){
+        top:6.625rem;
+        left:7rem;
+    }
+    
+    .subscript .icon:nth-child(2){
+        bottom:2.25rem;
+        right:9.25rem;
+    }
+
+    .subscript .icon:nth-child(3){
+        top:1.9375erm;
+        left:20.125rem;
+    }
+
+    .subscript .icon:nth-child(4){
+        left:15.625rem;
+    }
+
+    .subscript .icon:nth-child(5){
+        top:5.9375rem;
+        right:8.25rem;
+    }
+    
+    .mobile_ad{
+        height:34.75rem;
+    }
+
+    .mobile_ad .background_img .ad_wrap{
+        left:2.75rem;
+        top:5.4375rem;
+    }
+
+    .mobile_ad .background_img .ad_wrap h3{
+        font-size:2.25rem;
+        padding-bottom:1.3125rem;
+        
+    }
+    .mobile_ad .background_img .ad_wrap .pc_txt{
+        display:none;
+    }
+
+    .mobile_ad .background_img .ad_wrap img{
+        width:10rem;
+    }
+
+    footer .background form{display:none;}
+
+    footer .background .sns_icon{
+        padding-top:1.25rem;
+    }
+}

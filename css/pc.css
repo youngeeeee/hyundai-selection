@@ -1,0 +1,338 @@
+@media all and (min-width:112.5rem){
+    html{font-size: 1.6vw;}
+
+    header .gnb_btn{
+        top:1.125rem;
+    }
+    header nav{
+        flex-direction: unset;
+    }
+    header nav.active .bg-layer{
+        height:100%;
+        background-position: 0 center;
+    }
+
+    header nav .nav-wrap{
+        height:100%;
+    }
+    header nav .nav-wrap .gnb{margin-top: 50%;}
+
+    .main .main_img{
+        top:2.75rem;
+        opacity: 21.45;
+    }
+    .main .main_img > div img{
+        width:100%;
+        box-shadow: 0 0 0 rgba(0,0,0,10%);
+    }
+
+    .main .main_tit{
+        margin:0 3.25rem;
+    }
+    .main .main_tit img{
+        width:11.4375rem;
+    }
+
+    .service .service_tit{
+        padding-top:48rem;
+        margin:0 3.25rem;
+    }
+
+    .service .service_img{
+        padding-top:4rem;
+    }
+   
+    .service .service_img .circle{
+        width:1.5rem;
+        height:1.5rem;
+        font-size: 1.125rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .service .service_img .box{
+        max-width: unset;
+        width:100%;
+    }
+    .service .service_img .txt p:nth-child(1){
+        font-size:0.9rem;
+        font-weight: 700;
+    }
+    .service .service_img .explain{font-size: 0.75rem;}
+
+    .recommend{
+        margin:0 3.25rem;
+    }
+
+    .recommend .recom_content{
+        margin:0 7.5rem;
+    }
+
+    .recommend .recom_content .ballon_talk img{
+        width:2.125rem;
+    }
+
+    .subscript{
+        height:32.5rem;
+    }
+    
+    .subscript .tit h3{
+        font-size:2.8125rem;
+    }
+
+    .subscript .icon img{
+        width:6.375rem;
+        display:block;
+    }
+    
+    .subscript .icon:nth-child(1){
+        right:11.875rem;
+        top:9.375rem;
+    }
+
+    .subscript .icon:nth-child(2){
+        right:17.25rem;
+        bottom:2.25rem;
+    }
+    .subscript .icon:nth-child(3){
+        left:29.125rem;
+        top:2.9375rem;
+    }
+
+    .subscript .icon:nth-child(4){
+        left:17.625rem;
+        bottom:2.875rem;
+    }
+
+    .subscript .icon:nth-child(5){
+        top:9.9375rem;
+        right:9.25rem;
+    }
+    .regular_pack .flex_box{
+        padding: 8.75rem 0;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .regular_pack .flex_box .content{
+        background-color: #f0f0f0;
+        margin-right:1.25rem;
+        border-radius: 1rem;
+        /* height:100%; */
+        padding: 0;
+        width: 100%;
+    }
+
+    .regular_pack .flex_box .content:last-child{
+        margin-right: 0;
+    }
+
+    .regular_pack .flex_box .content .box{
+        height: 100%;
+    }
+    
+    .regular_pack .flex_box .content .box .regular_thumb{
+        height: 100%;
+    }
+    
+    .regular_pack .flex_box .content:hover .regular_thumb .txt{
+        opacity: 0;
+    }
+    
+    .regular_pack .flex_box .content:hover .car img{
+        filter: blur(1.25rem);
+    }
+    
+    .regular_pack .flex_box .content:hover .price_table{
+        opacity: 1;
+    }
+
+    .regular_pack .flex_box .content .regular_thumb .txt{
+        transition: all 0.3s;
+    }
+    
+    .regular_pack .flex_box .content .regular_thumb .txt h4{
+        padding-top: 1.5rem;
+    }
+
+    .regular_pack .flex_box .content .car img{
+        transition: all 0.3s;
+    }
+    
+    .regular_pack .flex_box .content .price_table{
+        position:absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        opacity: 0;
+        transition: all 0.5s;
+        overflow: hidden scroll;
+    }
+    
+    .regular_pack .flex_box .content .price_table table{
+        font-size:0.7rem;
+        width: 100%;
+        height:100%;
+        padding: 1.25rem;
+        line-height: 1.125rem;
+    }
+
+    .regular_pack .flex_box .content .price_table table th{
+        text-align: left;
+    }
+
+    .regular_pack .flex_box .regular_thumb{
+        /* background:#ccc; */
+        position:relative;
+    }
+    
+    .regular_pack .content .box .regular_thumb .txt{
+        width:55%;
+        text-align: unset;
+        margin-left: 1.875rem;
+    }
+
+    .regular_pack .content .box .regular_thumb > a {
+        display:unset;
+    }
+
+    .regular_pack .content .box .regular_thumb .txt .tax{
+        margin-left:.625rem;
+    }
+
+    .regular_pack .content .box .regular_thumb .txt .btn_more{display:none;}
+    
+    .regular_pack .content .box .regular_thumb .txt .price{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .regular_pack .content .box .regular_thumb .car{
+        width:100%;
+    }
+
+    .regular_pack .content .box .regular_thumb .car img{
+        width:100%;
+    }
+
+    .mobile_ad{
+        height:41.75rem;
+        background-position: center center;
+    }
+
+    .mobile_ad .background_img .ad_wrap{
+        left:3.75rem;
+        top:8.4375rem;
+    }
+
+    .mobile_ad .background_img .ad_wrap h3{
+        font-size:2.25rem;
+        padding-bottom: 1.3125rem;
+    }
+    .mobile_ad .background_img .ad_wrap .pc_txt{
+        font-size:1.375rem;
+        padding-bottom:1.5625rem;
+        display:block;
+    }
+    .mobile_ad .background_img .ad_wrap img{
+        width:9rem;
+    }
+    footer{
+
+        /* padding:3.125rem 3.125rem; */
+        text-align: unset;
+        position:relative;
+    }
+
+    footer .background .footer_logo{
+        width:9.8125rem;
+        margin:0 2.125rem;
+        position:absolute;
+        /* top:31.25rem; */
+    }
+    footer .background .footer_logo img{
+        width:8.375rem;
+    }
+
+    footer .background .sns_icon{padding-top:unset;}
+
+    footer .background .sns_icon .icon .fb img{
+        width:0.9rem;
+    }
+
+    footer .background .sns_icon .icon img{
+        width:1.5rem;
+    }
+
+    footer .background .icon{
+        justify-content: unset;
+        top:9.8rem;
+        right:3%;
+        position:absolute;
+    }
+    footer .background form{
+        position:relative;
+        width:0;
+        height:0;
+    }
+
+    footer .background form select{
+        width:9.5rem;
+        height:1.5rem;
+        position:absolute;
+        left:29rem;
+        top:8.5rem;
+        font-size:0.9rem;
+    }
+
+    footer .background form option{
+        font-size:1rem;
+    }
+
+    footer .background form{display:block;}
+    
+    footer .border_line{
+        width:93%;
+        border-bottom:.1875rem solid #f0f0f0;
+        padding-top:12.25rem;
+        margin-left:1.75rem;
+    }
+    footer .background .foot_txt{
+        width:unset;
+        margin-top:-3.1875rem;
+        line-height: 2;
+        margin-left:auto;
+    }
+
+    footer .background .foot_txt p{
+        font-size:1rem;
+        padding-top:1.25rem;
+        padding-left:1.7rem;
+    }
+    
+    footer .background .foot_txt .menu{
+        display:block;
+        padding-top:7.5rem;
+    }
+    
+    footer .background .foot_txt .menu li{
+        color:#f0f0f0;
+        display: inline-block;
+        font-size:1rem;
+        line-height:2.5;
+        /* margin-right:3.5625rem; */
+    }
+    
+    footer .background .foot_txt .menu a{
+        margin:0 1.7rem;
+    }
+
+    footer .background .foot_txt .number span{
+        display:inline-block;
+        margin-right:1.875rem;
+    }
+}
