@@ -1,4 +1,4 @@
-@media all and (min-width:112.5rem){
+@media all and (min-width:75rem){
     html{font-size: 1.6vw;}
 
     header .gnb_btn{
@@ -70,7 +70,7 @@
     }
 
     .recommend .recom_content .ballon_talk img{
-        width:2.125rem;
+        width:1.5rem;
     }
 
     .subscript{

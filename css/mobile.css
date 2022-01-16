@@ -285,6 +285,7 @@ header nav .nav-wrap .gnb li .sub p{
 .service .service_tit p{
     font-size:1.125rem;
     line-height:1.25rem;
+    width:31.25rem;
 }
 
 .service .service_img .box{
